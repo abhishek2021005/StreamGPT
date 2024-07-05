@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# StreamGPT
+StreamGPT is a cutting-edge movie recommendation platform that leverages advanced AI technology to provide users with personalized movie suggestions. By utilizing the GPT API, StreamGPT understands users' specific movie preferences and offers tailored recommendations to enhance their viewing experience.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+## Features
+<li>Personalized movie recommendations based on user input.</li>
+<li>MultiLanguage Support</li>
+<li>Real-time suggestions utilizing GPT API.</li>
+<li>User-friendly interface with responsive design.</li>
+<li>Secure authentication for user accounts using Firebase. </li>
+<li>Access to more than 133k movies and webseries in different languages.</li>
+<li>Features similar to specially trained LLMs specifically for understanding of user sentiments and recommending movies according to it.</li>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technology Stack
+<li>Frontend: React, Tailwind CSS</li>
+<li>Backend: Firebase Authentication, GPT API(customized according to our project requirement),  TMDB API</li>
+<li>State Management: Redux</li>
 
-### `npm test`
+# Demo Account
+<li>email: as4@gmail.com</li>
+<li>password: Avhi@1234</li>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Screenshots
+<img width="1433" alt="Screenshot 2024-07-05 at 5 28 16 AM" src="https://github.com/abhishek2021005/StreamGPT/assets/81138182/62a04982-def6-4cf3-a4c5-cc3db0b02a1f">
+<img width="1440" alt="Screenshot 2024-07-05 at 7 27 30 AM" src="https://github.com/abhishek2021005/StreamGPT/assets/81138182/fc76d8fd-e39e-44e6-8848-2e342ab4f621">
+<img width="1440" alt="Screenshot 2024-07-05 at 7 27 41 AM" src="https://github.com/abhishek2021005/StreamGPT/assets/81138182/c4546b8c-db2b-4816-b03d-1faf775a2d97">
+![Uploading Screenshot 2024-07-05 at 5<img width="732" alt="Screenshot 2024-07-05 at 5 25 39 AM".25.06 AM.png…]() src="https://github.com/abhishek2021005/StreamGPT/assets/81138182/77f3511f-0736-4ad7-840b-f43ad2537c37">
+<img width="419" alt="Screenshot 2024-07-05 at 7 47 57 AM" src="https://github.com/abhishek2021005/StreamGPT/assets/81138182/ca0dccfd-5733-402b-9c84-d4f94dc17fdd">
 
-### `npm run build`
+<img width="733" alt="Screenshot 2024-07-05 at 5 25 06 AM" src="https://github.com/abhishek2021005/StreamGPT/assets/81138182/6cb9d462-0645-4ff1-b266-fd8bdf52ebcb">#
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
