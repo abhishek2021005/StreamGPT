@@ -109,7 +109,7 @@ const ApiKeyPopup = ({ onClose, onSubmit }) => {
           Please provide your GPT API key as my API's limit has been exceeded.
           If you do not have an API key and want to see its working, go to my
           <a
-            href="https://github.com/your-username/your-repo"
+            href="https://github.com/abhishek2021005/StreamGPT"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 hover:underline"

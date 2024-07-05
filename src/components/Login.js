@@ -10,6 +10,7 @@ import { BACKGROUND_URL, USER_AVATAR } from "../utils/constants";
 import { updateProfile } from "firebase/auth";
 import { useDispatch } from "react-redux";
 import { addUser } from "../utils/userSlice";
+import DemoCard from "./DemoCard";
 
 const Login = () => {
   const dispatch = useDispatch();
@@ -102,6 +103,7 @@ const Login = () => {
   return (
     <div>
       <Header />
+
       <div className="absolute">
         <img
           src={BACKGROUND_URL}
@@ -127,6 +129,7 @@ const Login = () => {
             className="p-4 my-4 w-full bg-gray-700"
           />
         )}
+
         <input
           ref={email}
           type="email"
